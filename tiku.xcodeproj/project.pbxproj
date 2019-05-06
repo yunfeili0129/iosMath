@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8842D33C227EF61000A81195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842D33B227EF61000A81195 /* AppDelegate.m */; };
+		8842D33F227EF61000A81195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842D33E227EF61000A81195 /* ViewController.m */; };
+		8842D342227EF61000A81195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8842D340227EF61000A81195 /* Main.storyboard */; };
+		8842D344227EF61100A81195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8842D343227EF61100A81195 /* Assets.xcassets */; };
+		8842D347227EF61100A81195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8842D345227EF61100A81195 /* LaunchScreen.storyboard */; };
+		8842D34A227EF61100A81195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842D349227EF61100A81195 /* main.m */; };
+		8842D352227EF7CA00A81195 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D351227EF7CA00A81195 /* QuartzCore.framework */; };
+		8842D354227EF7DC00A81195 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D353227EF7DC00A81195 /* CoreText.framework */; };
+		8842D356227EF7F600A81195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D355227EF7F600A81195 /* CoreGraphics.framework */; };
+		8842D358227EF80200A81195 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D357227EF80200A81195 /* CoreFoundation.framework */; };
+		8842D35A227EF80D00A81195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D359227EF80D00A81195 /* UIKit.framework */; };
+		8842D35C227EF81500A81195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D35B227EF81500A81195 /* Foundation.framework */; };
+		8842D39C227EF99E00A81195 /* libIosMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8842D39B227EF99E00A81195 /* libIosMath.a */; };
+		F9E6FA611911852C88B43531 /* Pods_tiku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E435D6181FF19E7E15190142 /* Pods_tiku.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84911555CF78F2356E9A9AB5 /* Pods-tiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiku.debug.xcconfig"; path = "Target Support Files/Pods-tiku/Pods-tiku.debug.xcconfig"; sourceTree = "<group>"; };
+		8842D337227EF61000A81195 /* tiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8842D33A227EF61000A81195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8842D33B227EF61000A81195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8842D33D227EF61000A81195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8842D33E227EF61000A81195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8842D341227EF61000A81195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8842D343227EF61100A81195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8842D346227EF61100A81195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8842D348227EF61100A81195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8842D349227EF61100A81195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8842D351227EF7CA00A81195 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8842D353227EF7DC00A81195 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8842D355227EF7F600A81195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8842D357227EF80200A81195 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8842D359227EF80D00A81195 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8842D35B227EF81500A81195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8842D39B227EF99E00A81195 /* libIosMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIosMath.a; sourceTree = "<group>"; };
+		B14F8AAD82B28D14081DFB77 /* Pods-tiku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiku.release.xcconfig"; path = "Target Support Files/Pods-tiku/Pods-tiku.release.xcconfig"; sourceTree = "<group>"; };
+		E435D6181FF19E7E15190142 /* Pods_tiku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tiku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8842D334227EF61000A81195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8842D39C227EF99E00A81195 /* libIosMath.a in Frameworks */,
+				8842D35C227EF81500A81195 /* Foundation.framework in Frameworks */,
+				8842D35A227EF80D00A81195 /* UIKit.framework in Frameworks */,
+				8842D358227EF80200A81195 /* CoreFoundation.framework in Frameworks */,
+				8842D356227EF7F600A81195 /* CoreGraphics.framework in Frameworks */,
+				8842D354227EF7DC00A81195 /* CoreText.framework in Frameworks */,
+				8842D352227EF7CA00A81195 /* QuartzCore.framework in Frameworks */,
+				F9E6FA611911852C88B43531 /* Pods_tiku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F59A4FB25F377A53DA11AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84911555CF78F2356E9A9AB5 /* Pods-tiku.debug.xcconfig */,
+				B14F8AAD82B28D14081DFB77 /* Pods-tiku.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8842D32E227EF61000A81195 = {
+			isa = PBXGroup;
+			children = (
+				8842D39B227EF99E00A81195 /* libIosMath.a */,
+				8842D339227EF61000A81195 /* tiku */,
+				8842D338227EF61000A81195 /* Products */,
+				8842D350227EF7C900A81195 /* Frameworks */,
+				0F59A4FB25F377A53DA11AAF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8842D338227EF61000A81195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8842D337227EF61000A81195 /* tiku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8842D339227EF61000A81195 /* tiku */ = {
+			isa = PBXGroup;
+			children = (
+				8842D33A227EF61000A81195 /* AppDelegate.h */,
+				8842D33B227EF61000A81195 /* AppDelegate.m */,
+				8842D33D227EF61000A81195 /* ViewController.h */,
+				8842D33E227EF61000A81195 /* ViewController.m */,
+				8842D340227EF61000A81195 /* Main.storyboard */,
+				8842D343227EF61100A81195 /* Assets.xcassets */,
+				8842D345227EF61100A81195 /* LaunchScreen.storyboard */,
+				8842D348227EF61100A81195 /* Info.plist */,
+				8842D349227EF61100A81195 /* main.m */,
+			);
+			path = tiku;
+			sourceTree = "<group>";
+		};
+		8842D350227EF7C900A81195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8842D35B227EF81500A81195 /* Foundation.framework */,
+				8842D359227EF80D00A81195 /* UIKit.framework */,
+				8842D357227EF80200A81195 /* CoreFoundation.framework */,
+				8842D355227EF7F600A81195 /* CoreGraphics.framework */,
+				8842D353227EF7DC00A81195 /* CoreText.framework */,
+				8842D351227EF7CA00A81195 /* QuartzCore.framework */,
+				E435D6181FF19E7E15190142 /* Pods_tiku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8842D336227EF61000A81195 /* tiku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8842D34D227EF61100A81195 /* Build configuration list for PBXNativeTarget "tiku" */;
+			buildPhases = (
+				E40CF868FB488EBD7410162C /* [CP] Check Pods Manifest.lock */,
+				8842D333227EF61000A81195 /* Sources */,
+				8842D334227EF61000A81195 /* Frameworks */,
+				8842D335227EF61000A81195 /* Resources */,
+				3B4A1B28F0721EA6CC8BCEFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiku;
+			productName = tiku;
+			productReference = 8842D337227EF61000A81195 /* tiku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8842D32F227EF61000A81195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhixinB;
+				TargetAttributes = {
+					8842D336227EF61000A81195 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8842D332227EF61000A81195 /* Build configuration list for PBXProject "tiku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8842D32E227EF61000A81195;
+			productRefGroup = 8842D338227EF61000A81195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8842D336227EF61000A81195 /* tiku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8842D335227EF61000A81195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8842D347227EF61100A81195 /* LaunchScreen.storyboard in Resources */,
+				8842D344227EF61100A81195 /* Assets.xcassets in Resources */,
+				8842D342227EF61000A81195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B4A1B28F0721EA6CC8BCEFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tiku/Pods-tiku-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tiku/Pods-tiku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E40CF868FB488EBD7410162C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tiku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8842D333227EF61000A81195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8842D33F227EF61000A81195 /* ViewController.m in Sources */,
+				8842D34A227EF61100A81195 /* main.m in Sources */,
+				8842D33C227EF61000A81195 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8842D340227EF61000A81195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8842D341227EF61000A81195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8842D345227EF61100A81195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8842D346227EF61100A81195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8842D34B227EF61100A81195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8842D34C227EF61100A81195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8842D34E227EF61100A81195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84911555CF78F2356E9A9AB5 /* Pods-tiku.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23A2LJ9HY2;
+				INFOPLIST_FILE = tiku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yunfei.tiku.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8842D34F227EF61100A81195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14F8AAD82B28D14081DFB77 /* Pods-tiku.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23A2LJ9HY2;
+				INFOPLIST_FILE = tiku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yunfei.tiku.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8842D332227EF61000A81195 /* Build configuration list for PBXProject "tiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8842D34B227EF61100A81195 /* Debug */,
+				8842D34C227EF61100A81195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8842D34D227EF61100A81195 /* Build configuration list for PBXNativeTarget "tiku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8842D34E227EF61100A81195 /* Debug */,
+				8842D34F227EF61100A81195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8842D32F227EF61000A81195 /* Project object */;
+}

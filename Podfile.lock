@@ -1,0 +1,26 @@
+PODS:
+  - iosMath (0.9.4)
+  - Masonry (1.0.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - iosMath
+  - Masonry (~> 1.0.0)
+  - SDWebImage (~> 3.7.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - iosMath
+    - Masonry
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 7c6c5af034a618bbb43102f217e487a9f3af39bb
+
+COCOAPODS: 1.6.1
