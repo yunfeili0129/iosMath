@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8818513D228010CB00571091 /* Net_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8818513C228010CB00571091 /* Net_Helper.m */; };
 		8842D33C227EF61000A81195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842D33B227EF61000A81195 /* AppDelegate.m */; };
 		8842D33F227EF61000A81195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842D33E227EF61000A81195 /* ViewController.m */; };
 		8842D342227EF61000A81195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8842D340227EF61000A81195 /* Main.storyboard */; };
@@ -25,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		84911555CF78F2356E9A9AB5 /* Pods-tiku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tiku.debug.xcconfig"; path = "Target Support Files/Pods-tiku/Pods-tiku.debug.xcconfig"; sourceTree = "<group>"; };
+		8818513A22800F2200571091 /* Net_Url.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Net_Url.h; sourceTree = "<group>"; };
+		8818513B228010CB00571091 /* Net_Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Net_Helper.h; sourceTree = "<group>"; };
+		8818513C228010CB00571091 /* Net_Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Net_Helper.m; sourceTree = "<group>"; };
 		8842D337227EF61000A81195 /* tiku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8842D33A227EF61000A81195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8842D33B227EF61000A81195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +109,9 @@
 				8842D345227EF61100A81195 /* LaunchScreen.storyboard */,
 				8842D348227EF61100A81195 /* Info.plist */,
 				8842D349227EF61100A81195 /* main.m */,
+				8818513A22800F2200571091 /* Net_Url.h */,
+				8818513B228010CB00571091 /* Net_Helper.h */,
+				8818513C228010CB00571091 /* Net_Helper.m */,
 			);
 			path = tiku;
 			sourceTree = "<group>";
@@ -247,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8842D33F227EF61000A81195 /* ViewController.m in Sources */,
+				8818513D228010CB00571091 /* Net_Helper.m in Sources */,
 				8842D34A227EF61100A81195 /* main.m in Sources */,
 				8842D33C227EF61000A81195 /* AppDelegate.m in Sources */,
 			);

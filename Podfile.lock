@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - iosMath (0.9.4)
   - Masonry (1.0.2)
   - SDWebImage (3.7.6):
@@ -6,21 +21,24 @@ PODS:
   - SDWebImage/Core (3.7.6)
 
 DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
   - iosMath
   - Masonry (~> 1.0.0)
   - SDWebImage (~> 3.7.6)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - iosMath
     - Masonry
     - SDWebImage
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 7c6c5af034a618bbb43102f217e487a9f3af39bb
+PODFILE CHECKSUM: 5527c950471c5207a4306c8c43f1d0efa24dfd54
 
 COCOAPODS: 1.6.1

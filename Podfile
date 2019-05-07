@@ -5,4 +5,5 @@ target 'tiku' do
   pod 'SDWebImage', '~>3.7.6'
   pod 'Masonry', '~>1.0.0'
   pod 'iosMath'
+  pod 'AFNetworking', '~> 3.1.0'
 end

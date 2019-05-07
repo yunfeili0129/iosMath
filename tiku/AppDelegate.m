@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "Net_Url.h"
+#import "Net_Helper.h"
+#define USER_NAME @"13716517873"
+#define USER_PASS @"11223344q"
+#define StrFormObj(obj) [NSString stringWithFormat:@"%@", obj]
 
 @interface AppDelegate ()
 
@@ -17,10 +22,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self loginWithUserName:USER_NAME password:USER_PASS];
     return YES;
 }
-
-
+//模拟登录
+-(void)loginWithUserName:(NSString *)username password:(NSString *)pass
+{
+    [Net_Helper post:NewLOGIN_URL param:@{@"mobile":username, @"password":pass} success:^(NSDictionary * _Nonnull resultDict) {
+        [[NSUserDefaults standardUserDefaults] setObject:@{StrFormObj(resultDict[@"data"][@"tokenKey"]) : StrFormObj(resultDict[@"data"][@"tokenValue"])}
+                            forKey:@"tokenKeyAndValue"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isLogin"];
+        [[NSUserDefaults standardUserDefaults] setObject:username forKey:@"userName"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    } failure:^(NSError * _Nonnull error) {
+        
+    }];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
